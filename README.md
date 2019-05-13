@@ -25,4 +25,4 @@ A production-ready React `bundle.js` file will be written to `dist/bundle.js`.
 * Custom taxonomy support
 * Death Star :)
 
-![R2D2](https://www.justinwhall.com/wp-content/uploads/2017/10/star-wars-r2-d2-legendary-scale-feature-400155.jpg)
+![screenshot](https://imgur.com/vw6TgI4)
