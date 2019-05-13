@@ -1,0 +1,42 @@
+.header h1 {
+	text-transform: capitalize;
+}
+.header small {
+	font-weight: 400;
+	color: $grey;
+}
+
+.post-type-page .post-content {
+	margin-top: $scaleup-8
+}
+
+.blog-view .header{
+	margin-bottom: $scaleup-8;
+}
+
+.bar {
+	width: 57px;
+	height: 4px;
+	background: $berry;
+}
+
+.meta {
+	font-size: $scaleup-2;
+}
+
+.meta,
+.meta a {
+	font-weight: 400;
+	font-size: 12px;
+	color: darken($grey, 10);
+	// color: $dgrey;
+	text-transform: uppercase;
+}
+
+.meta a:hover {
+	color: $dgrey;
+}
+
+article {
+	margin-bottom: 60px;
+}

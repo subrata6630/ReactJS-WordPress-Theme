@@ -1,0 +1,44 @@
+a,
+a:focus {
+	color: $berry;
+	outline: 0;
+}
+
+a:hover {
+    color: $grey;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: $scaleup-8;
+	color: $dblue;
+	margin-top: 0;
+}
+
+.h3 {
+	font-size: $scaleup-6;
+	color: $blue;
+}
+
+.widgettitle {
+	margin-bottom: $scaledown-4;
+}
+
+input,
+textarea {
+	font-size: $scaleup-3;
+	color: $dgrey;
+}
+
+input[type='email']:focus,
+input[type='number']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+input[type='tel']:focus,
+input[type='text']:focus,
+input[type='url']:focus,
+textarea:focus,
+select:focus {
+    border-color: $metal;
+    outline: 0;
+}

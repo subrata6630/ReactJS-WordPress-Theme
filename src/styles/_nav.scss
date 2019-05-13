@@ -1,0 +1,94 @@
+nav {
+	display: flex;
+}
+.nav-wrap {
+	background: $dgrey;
+	z-index: $z-index-10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: $scale-0 0;
+}
+
+.logged-in .nav-wrap {
+	top: 30px;
+}
+
+.brand {
+	color: $grey;
+}
+
+#menu {
+	text-align: right;
+	flex-grow: 1;
+}
+
+#menu a,
+#menu a:focus {
+	margin-left: $scaleup-3;
+	display: inline-block;
+	text-transform: uppercase;
+	color: $grey;
+	color: #fff;
+	font-size: $scaleup-2;
+	font-weight: 400;
+	outline: none;
+
+	&:hover {
+		color: #fff;
+	}
+}
+
+#burger {
+
+	display: none;
+	position: absolute;
+	right: 20px;
+	top: -2px;
+
+	.line {
+		height: 4px;
+		margin: 6px 0;
+		background: $berry;
+		width: 40px;
+	}
+}
+
+@media (max-width:1000px) {
+
+	nav {
+		display: block;
+		overflow: hidden;
+	}
+
+	#burger {
+		display: block;
+	}
+
+	#menu a {
+		display: block;
+		width: 100%;
+		padding: $scaleup-2 0;
+		margin: 0 0 0 0 !important;
+		text-align: left;
+	}
+
+	#menu {
+		max-height: 0;
+	}
+
+	#menu.show {
+		max-height: 100vh;
+		transition: all 400ms;
+	}
+
+}
+
+@media (max-width: 600px) {
+	.brand .tagline,
+	.brand .divider {
+		display: none;
+	}
+
+}
