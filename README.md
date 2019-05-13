@@ -25,10 +25,8 @@ A production-ready React `bundle.js` file will be written to `dist/bundle.js`.
 * Custom taxonomy support
 * Death Star :)
 
-![screenshot](https://imgur.com/vw6TgI4)
+![screenshot](https://i.imgur.com/vw6TgI4.jpg)
 
 ![alt text](https://imgur.com/vw6TgI4)
 ! [Imgur](https://i.imgur.com/vw6TgI4.jpg)
 
-
-[url=https://imgur.com/vw6TgI4][img]http://i.imgur.com/vw6TgI4.jpg[/img][/url]
