@@ -26,3 +26,5 @@ A production-ready React `bundle.js` file will be written to `dist/bundle.js`.
 * Death Star :)
 
 ![screenshot](https://imgur.com/vw6TgI4)
+
+![alt text](https://imgur.com/vw6TgI4)
